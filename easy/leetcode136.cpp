@@ -11,3 +11,17 @@ int main(){
     cout <<  n ; 
     return 0 ; 
 }
+//
+// class Solution
+// {
+// public:
+//     int singleNumber(vector<int> &nums)
+//     {
+//         int n = 0;
+//         for (int val : nums)
+//         {
+//             n ^= val;
+//         }
+//         return n;
+//     }
+// };
