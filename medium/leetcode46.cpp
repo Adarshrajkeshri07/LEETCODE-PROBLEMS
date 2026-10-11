@@ -17,7 +17,9 @@ void permute(vector<int> & a , vector<vector<int>> &ans , int idx ){
 vector<vector<int>> getpermute(vector<int> &arr){
     vector<vector<int >> ans ; 
     permute(arr , ans , 0) ; 
+    
     return ans ; 
+
 }
 int main(){
     vector<int> arr  = {2,2,3,3} ; 
